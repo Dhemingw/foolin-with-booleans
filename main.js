@@ -2,7 +2,47 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function isInDanger(grade){
+  return grade >= 60 && grade <= 71
+}
 
+function isCoasting(grade){
+  return grade >= 72 && grade <= 82;
+}
+
+function isSucceeding(grade){
+  return grade >= 84 && <= 92;
+}
+
+function isFailing(grade){
+  return grade < 69
+}
+
+function isAcing(grade){
+  return grade > 92;
+}
+function isStudent(role){
+  return role === 'student';
+}
+
+function isTeacher(role){
+  return role === 'teacher';
+}
+
+function isElementary(role){
+return role === 'elementary';
+}
+
+function areDifferentPeople(name1, name2){
+return
+}
+
+function isMiddleSchoolTeacher(role, gradelevel){
+return role === teacher && gradelevel >= 6 && gradelevel <= 8
+}
+
+function notAnElementarySchoolAdministrator (level, role){
+return level !== 'Ele
 
 
 
